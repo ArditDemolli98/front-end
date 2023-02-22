@@ -1,0 +1,34 @@
+body {
+    background-color: aqua;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-1{
+    height: 200px;
+    width: 50%;
+    background-color: aqua;
+}
+
+.inside-box{
+    height: 50%;
+    width: 50%;
+    background-color: darkcyan;
+}
+
+.box-2{
+    height: 150px;
+    width: 333px;
+    background-color: tomato;
+}
+.box-3{
+    height: 100px;
+    width: 900px;
+    background-color: #ffff00
+}
+.box-4{
+    height: 113.5px;
+    width: 240px;
+    background-color: rgba(247, 226, 174, 1)
+}

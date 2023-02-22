@@ -1,0 +1,40 @@
+/* h3 + h3{
+    color:red;
+}
+h3 + h3 + h3{
+    color:yellow;
+}
+h2 + h3{
+    color: blue;
+} */
+
+article > div+p, article div p{
+    color:tomato;
+}
+
+article > div+p, article div p{
+    color: blue;
+}
+
+p {
+    color: green;
+}
+
+#firebrick{
+    color: firebrick !important;
+}
+
+#firebrick{
+    color: black;
+}
+.green{
+    color: green;
+}
+
+#h3{
+    text-align: end;
+}
+
+.heading-3{
+    text-align:center;
+}
