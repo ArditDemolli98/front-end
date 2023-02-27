@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 13px;
+    word-spacing: 15px
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+p{
+    color:purple;
+    font-size:26px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    text-transform: lowercase;
+    text-decoration: none;
+    line-height: 1.4;
+}
+p+p{
+    color:purple;
+    font-size:26px;
+    font-family: 'Open Sans', sans-serif;
+}
+p+p+p{
+    color:purple;
+    font-size:26px;
+    font-family:monospace;
+}
+p+p+p+p{
+    color:purple;
+    font-size:26px;
+    font-family:cursive;
+}
+p+p+p+p+p{
+    color:purple;
+    font-size:26px;
+    font-family: 'Mynerve', cursive;
+}
