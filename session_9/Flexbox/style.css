@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border: 2px solid black;
+    height: 400px;
+    background-color: blue;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+li{
+    list-style: none;
+}
+
+div{
+    background-color: lightcyan;
+    height: 2000px;
+}
+
+div+div{
+    background-color: lightcoral;
+    height: 2000px;
+}

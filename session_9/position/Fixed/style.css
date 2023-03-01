@@ -1,0 +1,21 @@
+li{
+    display: inline-block;
+    margin: 0 10%;
+}
+
+nav{
+    border: 2px solid black;
+    position: fixed;
+    width: 100%;
+    background-color: blue;
+}
+
+div{
+    background-color: lightcyan;
+    height: 2000px;
+}
+
+div+div{
+    background-color: lightcoral;
+    height: 2000px;
+}
