@@ -12,15 +12,18 @@ nav{
 
 ul{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
     height: 100%;
-    
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 li{
     list-style: none;
+    color: white;
+    background-color: aqua;
 }
 
 div{
@@ -31,4 +34,27 @@ div{
 div+div{
     background-color: lightcoral;
     height: 2000px;
+}
+.outter-div{
+    height:100vh;
+    display: flex;
+}
+
+.left-inner-div{
+    height:100%;
+    width: 50%;
+    border: 2px solid black;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.right-inner-div{
+    height:100%;
+    border: 2px solid black;
+    width: 50%;
+}
+.inner-inner-div{
+    height:400px;
+    width:400px;
+    border: 1px solid black;
 }

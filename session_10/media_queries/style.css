@@ -1,0 +1,49 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #1e1e1e;
+    border: 1px solid red;
+    transition: 1s;
+}
+
+@media only screen and (max-width: 1400px){
+    .box{
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .box{
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 615px){
+    .box{
+        background-color: yellow;
+    }
+    .wrapper{
+        flex-direction: column;
+        gap:10px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .box{
+        background-color: yellow;
+    }
+    .wrapper{
+        flex-direction: column;
+        gap:10px;
+    }
+    .box-1{
+        display:none;
+    }
+    .box-2{
+        width:400px;
+    }
+}
